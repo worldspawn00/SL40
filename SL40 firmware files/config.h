@@ -12,8 +12,8 @@
 #define DESCRIPTION     Keyboard
 
 /* key matrix size */
-#define MATRIX_ROWS 3
-#define MATRIX_COLS 15
+#define MATRIX_ROWS 4
+#define MATRIX_COLS 14
 
 /* key matrix pins */
 #define MATRIX_ROW_PINS { F4, F5, D2, D0 }
@@ -47,9 +47,10 @@
 #define PREVENT_STUCK_MODIFIERS
 
 
+#define RGB_DI_PIN F1
 #ifdef RGB_DI_PIN
 #define RGBLIGHT_ANIMATIONS
-#define RGBLED_NUM 0
+#define RGBLED_NUM 1
 #define RGBLIGHT_HUE_STEP 8
 #define RGBLIGHT_SAT_STEP 8
 #define RGBLIGHT_VAL_STEP 8
