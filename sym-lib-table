@@ -4,4 +4,5 @@
   (lib (name components)(type Legacy)(uri ${KIPRJMOD}/components.lib)(options "")(descr ""))
   (lib (name generic_kbd-cache)(type Legacy)(uri ${KIPRJMOD}/generic_kbd-cache.lib)(options "")(descr ""))
   (lib (name ComboDiode)(type Legacy)(uri ${KIPRJMOD}/ComboDiode.lib)(options "")(descr ""))
+  (lib (name SL40-rescue)(type Legacy)(uri ${KIPRJMOD}/SL40-rescue.lib)(options "")(descr ""))
 )
