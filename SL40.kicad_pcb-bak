@@ -87,7 +87,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory "C:/Users/Worldspawn Mobile/Documents/GitHub/SL40/Gerbers/"))
+      (outputdirectory "C:/Users/Worldspawn Mobile/Documents/GitHub/SL40/V2Gerbers/"))
   )
 
   (net 0 "")
