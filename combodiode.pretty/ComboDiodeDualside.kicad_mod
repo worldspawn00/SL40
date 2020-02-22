@@ -1,4 +1,4 @@
-(module ComboDiode (layer F.Cu) (tedit 5E4AEE9F)
+(module ComboDiodeDualside (layer F.Cu) (tedit 5E4AF263)
   (descr SOD-123)
   (tags SOD-123)
   (attr smd)
@@ -35,6 +35,10 @@
   (pad 2 thru_hole circle (at 3.81 0) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask))
   (pad "" connect rect (at 2.54 0) (size 1.524 0.5) (layers B.Cu))
   (pad "" connect rect (at -2.54 0) (size 1.524 0.5) (layers B.Cu))
+  (pad "" connect rect (at -2.54 0) (size 1.524 0.5) (layers F.Cu))
+  (pad "" connect rect (at 2.54 0) (size 1.524 0.5) (layers F.Cu))
+  (pad "" smd rect (at 1.65 0) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask))
+  (pad "" smd rect (at -1.65 0) (size 0.9 1.2) (layers F.Cu F.Paste F.Mask))
   (model ${KISYS3DMOD}/Diodes_SMD.3dshapes/D_SOD-123.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
