@@ -1,4 +1,4 @@
-(module ComboDiode (layer F.Cu) (tedit 5E4AEE9F)
+(module ComboDiode (layer F.Cu) (tedit 5D9DD3C1)
   (descr SOD-123)
   (tags SOD-123)
   (attr smd)
